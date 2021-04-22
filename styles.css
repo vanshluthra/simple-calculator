@@ -10,6 +10,7 @@ body{
     background: #fffbd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 93vh;
 }
 
 #box{
@@ -74,5 +75,20 @@ body{
 @media(max-width:450px){
     #box{
         width: 70vw;
+    }
+}
+
+@media(max-height: 550px){
+    #box{
+        width: 60vw;
+    }
+}
+
+@media(max-height:450px){
+    .pos{
+        padding-top: 0px;
+    }
+    #result{
+        padding-top: 0px;
     }
 }
