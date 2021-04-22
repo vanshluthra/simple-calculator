@@ -64,3 +64,15 @@ body{
 .red-col{
     background-color: #C4473C;
 }
+
+@media(max-width:700px){
+    #box{
+        width: 45vw;
+    }
+}
+
+@media(max-width:450px){
+    #box{
+        width: 70vw;
+    }
+}
