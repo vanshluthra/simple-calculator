@@ -31,6 +31,8 @@ body{
     /* position: relative; */
     text-align: end;
     font-size: 38px;
+    overflow-x:auto;
+    overflow-y: hidden;
 }
 
 #pad{
